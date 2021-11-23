@@ -1,0 +1,105 @@
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+</head>
+ <body>
+  <div class="bgimg">
+   <img src="https://fontmeme.com/permalink/211031/69dfe28dc8c9bdcdb8ca6878bedab0b5.png" class="logotext">
+   <button class="sign"> Sign In </button>
+
+<select name="language" id="lang" tabindex="0" placeholder="lang-switcher" style="float: right; height:30px; width:70px; background-color: black; color: white; margin-right: 2px;margin-top: 15px;"> 
+    <option selected lang="en" value="/in/" data-language="en" data-country="IN">English</option>
+    <option  lang="hi" value="/in-hi/" data-language="hi" data-country="IN">Hindi</option>
+</select>
+
+<div class="main" > <br><br><br><br><br>
+  <h1> Unlimited movies, TV <br> shows and more.</h1>
+  <h3>Watch anywhere. Cancel anytime.
+ </h3>
+  <h3>Ready to watch? Enter your email to create or restart your membership.
+ </h3>
+  </div>
+   <div class="dvbtn">
+  <input type="text" placeholder="Email adrress" class="textbox">
+     <a href="#"><input type="button" class="button1" value="Get Started >" >       </a>           
+   </div>
+    <br><br><br><br><br>
+   </div>
+   <div class="line">-------------------- </div>
+   
+   
+   
+   
+    <style>
+      .line{background-color:#3d5a61; height:10px; }
+      .textbox{ box-sizing: border-box;
+      	height:60px;
+        width:470px;
+        padding :10px;
+        margin-top:10px;
+       margin-left:35%;
+        margin-right:10px;
+        border:none;
+      }
+      .main{
+      	color:white;
+        text-align:center;
+        margin-top:10px;
+      }
+      
+      .logo{margin :15px; float:right;
+        height:50px;
+        width:60px;
+        background-color:red;
+        border:none;
+        color:white;
+        border-radius:5px;
+      }
+        body{
+          background-color: black; }
+    button{
+    float: right; margin: 15px;
+    margin-right: 30px;
+    height: 30px;
+    width: 60px;
+    background-color: red;
+    border:none ;
+    color: white;
+    border-radius: 5px;
+	
+    }
+      .bgimg{ background-image:url(https://i.ibb.co/D76Wx1q/background.jpg); background-size:cover;}
+      .dvbtn{ display:flex; float:center; }
+      .button1{ height: 60px; font-size:20px;  display:flex; cursor:pointer;
+    width: 170px; margin-left:-12px; margin-top:11px; text-align:center;
+    background-color:rgb(224, 16, 30);padding-left:30px;
+    border:none ;
+    color: white;}
+     
+      .button1:hover{ background-color:red; }
+      body {text-align:center;font-family: 'Open Sans', sans-serif;
+       }
+      .logotext{ color:red; width:150px; height:50px; margin-top:10px;margin-left:10px; float:left;
+      } 
+      a{text-decoration:none; }
+        h1{color:white; font-size:53px; margin-top:-15px; } 
+      h3{color:white;font-size:20px; margin-left:50px; } 
+     @media only screen and (max-width: 600px) {
+       h1 { font-size:28px;	margin-left:20px;			}
+       h3{font-size:16px;max-width:280px;  }
+       .logotext{width:100px; height:30px; }
+       .textbox{width:300px; height:50px;   margin-left:40px;}
+       .button1{ width:140px; height:48px; font-size:15px; text-decoration:none; position:absolute;
+         margin-top:75px;left:37% ;
+ 					}
+       .bgimg{background-image:url(https://i.ibb.co/D76Wx1q/background.jpg); background-size:cover; }
+    
+  }
+
+    </style>
